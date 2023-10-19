@@ -1,0 +1,35 @@
+/* div{
+    width: 200px;
+    height: 150px;
+    border: 1px dashed blueviolet;
+    background-color: white;
+    color: brown;
+    font-size: 10px;
+}
+
+h1{
+    position: absolute;
+    
+} */
+
+div{
+    position: fixed;
+    width: 200px;
+    height: 150px;
+    border: 1px dashed blueviolet;
+    background-color: white;
+    color: brown;
+    font-size: 10px;
+}
+
+h1{
+    padding-left: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+p{
+    position: relative;
+    color: black;
+    z-index: 2;
+}

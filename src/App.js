@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './mycss/css.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // <div>
+    //   <h1>position properties</h1>
+    // </div>
+
+    // example of z-index properties
+    <React.Fragment>
+      <div></div>
+      <h1>welcome into z index positioning</h1>
+      <p>this is my paragraph</p>
+    </React.Fragment>
+  )
 }
 
-export default App;
+export default App
