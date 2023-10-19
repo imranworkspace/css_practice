@@ -1,8 +1,15 @@
-img{
+#img1{
     width: 200px;
     height: 180px;
     border: 1px solid red;
     float: left;
+}
+
+#img2{
+    width: 200px;
+    height: 180px;
+    border: 1px solid green;
+    float: right;
 }
 
 h1{
@@ -11,4 +18,5 @@ h1{
 
 p{
     float: right;
+    clear: left;
 }
