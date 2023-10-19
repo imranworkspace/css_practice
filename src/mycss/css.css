@@ -1,10 +1,14 @@
-p{
-    position: relative;
-    color: black;
-    z-index: 2;
+img{
     width: 200px;
     height: 180px;
+    border: 1px solid red;
+    float: left;
 }
-p.overflow{
-    overflow: scroll;
+
+h1{
+    float: right;
+}
+
+p{
+    float: right;
 }

@@ -4,6 +4,8 @@ import './mycss/css.css'
 const App = () => {
   return (
     <React.Fragment>
+      <img src='img.jpg' />
+      <h1>nikola tesla is the great scientist</h1>
     <p className='overflow'>
       By the end of his brilliant and tortured life, the Serbian physicist, engineer and inventor Nikola Tesla was penniless and living in a small New York City hotel room. He spent days in a park surrounded by the creatures that mattered most to him—pigeons—and his sleepless nights working over mathematical equations and scientific problems in his head. That habit would confound scientists and scholars for decades after he died, in 1943. His inventions were designed and perfected in his imagination.
 
