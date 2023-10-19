@@ -30,6 +30,10 @@ Tesla promptly quit and took a job digging ditches. But it wasn’t long before 
 
 Tesla patented his AC motors and power systems, which were said to be the most valuable inventions since the telephone. Soon, George Westinghouse, recognizing that Tesla’s designs might be just what he needed in his efforts to unseat Edison’s DC current, licensed his patents for $60,000 in stocks and cash and royalties based on how much electricity Westinghouse could sell. Ultimately, he won the “War of the Currents,” but at a steep cost in litigation and competition for both Westinghouse and Edison’s General Electric Company.
       </p>
+
+      <div>
+        <p>this is <span>paragraph</span> </p>
+      </div>
     </React.Fragment>
   )
 }

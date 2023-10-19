@@ -20,3 +20,12 @@ p{
     float: right;
     clear: left;
 }
+
+/* inline element */
+span{
+    text-align: center;
+    font-size: 20px;
+    background-color: brown;
+    color: #ffffff;
+
+}
