@@ -1,12 +1,14 @@
 import React from 'react'
 // import CssProperties from './CssProperties'
-import MarginPadding from './MarginPadding'
+// import MarginPadding from './MarginPadding'
+import Diff_MarginPadding from './Diff_MarginPadding'
 
 const App = () => {
   return (
     <React.Fragment>
       {/* <CssProperties /> */}
-      <MarginPadding />
+      {/* <MarginPadding /> */}
+      <Diff_MarginPadding />
     </React.Fragment>
   )
 }
