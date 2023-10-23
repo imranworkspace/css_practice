@@ -1,0 +1,5 @@
+p{
+    background-color: pink;
+    /* width: 300px; */
+    width: 30%; /* always percentage perform better as Response page */
+}
