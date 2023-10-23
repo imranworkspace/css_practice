@@ -1,5 +1,6 @@
 import React from 'react'
-import Margin_px_percentage from './Margin_px_percentage'
+// import Margin_px_percentage from './Margin_px_percentage'
+import Opacity_properties from './Opacity_properties'
 // import CssProperties from './CssProperties'
 // import MarginPadding from './MarginPadding'
 // import Diff_MarginPadding from './Diff_MarginPadding'
@@ -10,7 +11,9 @@ const App = () => {
       {/* <CssProperties /> */}
       {/* <MarginPadding /> */}
       {/* <Diff_MarginPadding /> */}
-      <Margin_px_percentage />
+      {/* <Margin_px_percentage /> */}
+
+      <Opacity_properties />
     </React.Fragment>
   )
 }
