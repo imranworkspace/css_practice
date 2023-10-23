@@ -44,3 +44,8 @@ h1.red{
 li:nth-child(even) {color: red;}
 
 li:nth-child(odd) {color: blue;}
+
+
+p::before {content: "good morning!!!  ";}
+
+p::after {content: " bye!!!  ";}
