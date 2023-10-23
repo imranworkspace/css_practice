@@ -23,16 +23,19 @@ He would spend the next six years of his life “thinking” about electromagnet
 In 1881, Tesla moved to Budapest, after recovering from his breakdown, and he was walking through a park with a friend, reciting poetry, when a vision came to him. There in the park, with a stick, Tesla drew a crude diagram in the dirt—a motor using the principle of rotating magnetic fields created by two or more alternating currents. While AC electrification had been employed before, there would never be a practical, working motor run on alternating current until he invented his induction motor several years later.
 
 In June 1884, Tesla sailed for New York City and arrived with four cents in his pocket and a letter of recommendation from Charles Batchelor—a former employer—to Thomas Edison, which was purported to say, “My Dear Edison: I know two great men and you are one of them. The other is this young man!”
-
-A meeting was arranged, and once Tesla described the engineering work he was doing, Edison, though skeptical, hired him. According to Tesla, Edison offered him $50,000 if he could improve upon the DC generation plants Edison favored. Within a few months, Tesla informed the American inventor that he had indeed improved upon Edison’s motors. Edison, Tesla noted, refused to pay up. “When you become a full-fledged American, you will appreciate an American joke,” Edison told him.
-
-Tesla promptly quit and took a job digging ditches. But it wasn’t long before word got out that Tesla’s AC motor was worth investing in, and the Western Union Company put Tesla to work in a lab not far from Edison’s office, where he designed AC power systems that are still used around the world. “The motors I built there,” Tesla said, “were exactly as I imagined them. I made no attempt to improve the design, but merely reproduced the pictures as they appeared to my vision, and the operation was always as I expected.”
-
-Tesla patented his AC motors and power systems, which were said to be the most valuable inventions since the telephone. Soon, George Westinghouse, recognizing that Tesla’s designs might be just what he needed in his efforts to unseat Edison’s DC current, licensed his patents for $60,000 in stocks and cash and royalties based on how much electricity Westinghouse could sell. Ultimately, he won the “War of the Currents,” but at a steep cost in litigation and competition for both Westinghouse and Edison’s General Electric Company.
       </p>
 
       <div>
-        <p>this is <span>paragraph</span> </p>
+        <p>this is <span>paragraph with span stayed on same line</span> </p>
+        <p>this is <div> paragraph with div move to new line</div> </p>
+      </div>
+      <div>
+        <h1 className='red'>this is h1 element specific with className</h1> <br></br>
+        <h1>this is h1 element without className</h1>
+      </div>
+      <div className='maindiv'>
+        <h1>adjusant selector example</h1>
+        <p>this is adjusant selector para</p>
       </div>
     </React.Fragment>
   )

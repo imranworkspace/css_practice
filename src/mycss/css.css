@@ -29,3 +29,9 @@ span{
     color: #ffffff;
 
 }
+
+h1.red{
+    color: red;
+}
+
+.maindiv h1 + p {color: steelblue;}
