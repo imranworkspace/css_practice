@@ -3,7 +3,7 @@ import "./mycss/margin_padding.css"
 const MarginPadding = () => {
   return (
     <>
-      <p>this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph 
+      <p id='padding'>this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph 
       this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph 
       this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph 
       this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph this is paragraph 

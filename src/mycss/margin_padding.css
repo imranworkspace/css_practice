@@ -5,3 +5,13 @@ p{
     /* margin: 50px 10px; */
     margin: 50px;
 }
+
+#padding{
+    background-color: brown;
+    color: white;
+    /* padding: 50px 50px 50px 50px; */
+    /* padding: 50px 50px 50px ;  */
+    /* padding: 50px 20px; */
+    padding: 20px;
+
+}
