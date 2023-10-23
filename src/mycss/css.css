@@ -49,3 +49,9 @@ li:nth-child(odd) {color: blue;}
 p::before {content: "good morning!!!  ";}
 
 p::after {content: " bye!!!  ";}
+
+/* p::first-letter {color: yellow;} */
+
+p::first-line { color: greenyellow;}
+
+p::selection {color: red;}
