@@ -1,11 +1,6 @@
 div{
     width: 30opx;
     height: 20opx;
-    background-color: green;
-    font-size: 40px;
-}
-
-div:hover{
-    opacity: 0.9;
-    color: white;
+    background-color: rgba(192, 192, 64, 0.2); /* red green blue and alpha (opacity value)*/
+    font-size: 20px;
 }
