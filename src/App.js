@@ -29,14 +29,27 @@ In June 1884, Tesla sailed for New York City and arrived with four cents in his 
         <p>this is <span>paragraph with span stayed on same line</span> </p>
         <p>this is <div> paragraph with div move to new line</div> </p>
       </div>
+      <br></br>
+      <br></br>
       <div>
         <h1 className='red'>this is h1 element specific with className</h1> <br></br>
         <h1>this is h1 element without className</h1>
       </div>
+      <br></br>
+      <br></br>
       <div className='maindiv'>
         <h1>adjusant selector example</h1>
         <p>this is adjusant selector para</p>
       </div>
+      <br></br>
+      <div className='siblingdiv'>
+        <h1>siblingdiv of h1 example</h1>
+        <p>sibling of h1 para1</p>
+        <p>sibling of h1 para2</p>
+        <p>sibling of h1 para3</p>
+        <p>sibling of h1 para4</p>
+      </div>
+
     </React.Fragment>
   )
 }
