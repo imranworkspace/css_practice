@@ -36,3 +36,11 @@ h1.red{
 
 .maindiv h1 + p {color: steelblue;}
 .siblingdiv h1 ~ p {text-align: left; font-size: 20px; text-decoration: dashed; color: violet;}
+
+
+/* nth index */
+/* li:nth-child(5) {color: red;} */
+
+li:nth-child(even) {color: red;}
+
+li:nth-child(odd) {color: blue;}
