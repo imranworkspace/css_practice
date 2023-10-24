@@ -1,0 +1,16 @@
+#div1{
+    border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-color: blue;
+}
+
+#div2{
+    border-bottom-style: dashed; 
+    border-bottom-width: 10px;  /* for apply width before mentioned border-bottom-style*/
+    border-bottom-color: rgb(202, 89, 89);
+}
+
+#div3{
+    border-bottom: 5px solid pink; /* shorthand width,style,color*/
+}
+

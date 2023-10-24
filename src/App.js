@@ -1,5 +1,6 @@
 import React from 'react'
-import BorderTop from './BorderTop'
+import BorderBottom from './BorderBottom'
+// import BorderTop from './BorderTop'
 // import BorderRight from './BorderRight'
 // import BorderLeft from './BorderLeft'
 // import Margin_px_percentage from './Margin_px_percentage'
@@ -20,7 +21,8 @@ const App = () => {
       
       {/* <BorderLeft /> */}
       {/* <BorderRight /> */}
-      <BorderTop />
+      {/* <BorderTop /> */}
+      <BorderBottom />
     </React.Fragment>
   )
 }
