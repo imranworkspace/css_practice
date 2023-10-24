@@ -4,8 +4,11 @@ div{
     background-color: pink;
     /* single shadow effect  */
     /* box-shadow: 5px 5px 3px yellow */
+}
 
-    /* double shadow effect */
-    box-shadow: 5px 5px 3px yellow,10px 10px 3px red;
+div:hover{
+        /* double shadow effect */
+        box-shadow: 5px 5px 3px yellow,10px 10px 3px red;
+
 }
 
