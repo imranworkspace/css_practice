@@ -3,7 +3,7 @@ import './mycss/box_shaddow.css'
 const Boxshado = () => {
   return (
     <div>
-      
+        
     </div>
   )
 }
