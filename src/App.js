@@ -1,5 +1,6 @@
 import React from 'react'
-import Boxshado from './Boxshado'
+import Transition from './Transition'
+// import Boxshado from './Boxshado'
 // import BorderRadius from './BorderRadius'
 // import BorderBottom from './BorderBottom'
 // import BorderTop from './BorderTop'
@@ -26,7 +27,9 @@ const App = () => {
       {/* <BorderTop /> */}
       {/* <BorderBottom /> */}
       {/* <BorderRadius /> */}
-      <Boxshado />
+      {/* <Boxshado /> */}
+
+      <Transition />
     </React.Fragment>
   )
 }
