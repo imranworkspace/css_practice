@@ -1,0 +1,16 @@
+#div1{
+    border-top-style: solid;
+    border-top-width: thick;
+    border-top-color: blue;
+}
+
+#div2{
+    border-top-style: dashed; 
+    border-top-width: 10px;  /* for apply width before mentioned border-top-style*/
+    border-top-color: rgb(202, 89, 89);
+}
+
+#div3{
+    border-top: 5px solid pink; /* shorthand width,style,color*/
+}
+
