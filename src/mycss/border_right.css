@@ -1,0 +1,19 @@
+#div1{
+    border-right-style: solid;
+    border-right-width: thick;
+    border-right-color: blue;
+}
+
+#div2{
+    border-right-style: dashed; 
+    border-right-width: 10px;  /* for apply width before mentioned border-right-style*/
+    border-right-color: rgb(202, 89, 89);
+}
+
+#div3{
+    border-right: 5px solid pink; /* shorthand width,style,color*/
+}
+
+p{
+    text-align: end;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
-import BorderLeft from './BorderLeft'
+import BorderRight from './BorderRight'
+// import BorderLeft from './BorderLeft'
 // import Margin_px_percentage from './Margin_px_percentage'
 // import Opacity_properties from './Opacity_properties'
 // import CssProperties from './CssProperties'
@@ -15,7 +16,9 @@ const App = () => {
       {/* <Margin_px_percentage /> */}
 
       {/* <Opacity_properties /> */}
-      <BorderLeft />
+      
+      {/* <BorderLeft /> */}
+      <BorderRight />
     </React.Fragment>
   )
 }
