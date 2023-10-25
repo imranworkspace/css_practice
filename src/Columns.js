@@ -3,10 +3,10 @@ import './mycss/columns.css'
 const Columns = () => {
   return (
     <div>
-      this is GeekyShows this is GeekyShows this is GeekyShows
+      <p>this is GeekyShows this is GeekyShows this is GeekyShows
       this is GeekyShows this is GeekyShows this is GeekyShows 
       this is GeekyShows this is GeekyShows this is GeekyShows
-      this is GeekyShows this is GeekyShows this is GeekyShows 
+      </p> 
       this is GeekyShows this is GeekyShows this is GeekyShows
       this is GeekyShows this is GeekyShows this is GeekyShows 
       this is GeekyShows this is GeekyShows this is GeekyShows

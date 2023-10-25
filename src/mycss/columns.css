@@ -5,3 +5,7 @@ div{
     column-gap: 10px;
     font-size: 30px;
 }
+
+p{
+    column-span: all;
+}
