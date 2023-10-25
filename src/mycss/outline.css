@@ -1,0 +1,12 @@
+/* div{
+    outline-style: solid;
+    outline-color: blueviolet;
+    outline-width: 1px;
+    border: solid red;
+    
+} */
+
+div{
+    outline: green dotted 3px;
+    outline-offset: 3px;
+}
