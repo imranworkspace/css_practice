@@ -1,7 +1,7 @@
 #container{
     border: 2px solid black;
     display: flex;  /* flex bydefault in row by default horizontal*/
-    flex-direction: row-reverse; /* flex in horizontal shape*/
+    flex-direction: row; /* flex in horizontal shape*/
 }
 
 div{
