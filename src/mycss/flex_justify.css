@@ -2,7 +2,7 @@
     border: 2px solid black;
     display: flex;  /* flex bydefault in row by default horizontal*/
     flex-direction: row; /* flex in horizontal shape*/
-    justify-content: flex-end;
+    justify-content: space-between
 }
 
 div{
