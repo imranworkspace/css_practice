@@ -1,7 +1,8 @@
 import React from 'react'
+import Boxsizing from './Boxsizing'
 // import Transition from './Transition'
 // import Outline from './Outline'
-import Columns from './Columns'
+// import Columns from './Columns'
 // import Boxshado from './Boxshado'
 // import BorderRadius from './BorderRadius'
 // import BorderBottom from './BorderBottom'
@@ -33,7 +34,8 @@ const App = () => {
 
       {/* <Transition /> */}
       {/* <Outline /> */}
-      <Columns />
+      {/* <Columns /> */}
+      <Boxsizing />
     </React.Fragment>
   )
 }
