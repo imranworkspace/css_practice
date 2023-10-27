@@ -1,6 +1,6 @@
 import React from 'react'
 import './mycss/flex_justify.css'
-const Flex = () => {
+const FlexJustify = () => {
   return (
     <div>
       <div id='container'>
@@ -13,4 +13,4 @@ const Flex = () => {
     </div>
   )
 }
-export default Flex
+export default FlexJustify
