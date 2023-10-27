@@ -1,0 +1,44 @@
+div[id='myid']{
+    color: brown;
+    font-size: 18px;
+}
+
+div[class ~="myclass"]{
+    color: green;
+    font-size: 20px;
+    background-color: black;
+    
+}
+
+/* div[id]{
+    color: brown;
+    background-color: purple;
+    font-size: 19px;
+}
+ */
+
+
+
+ /* match case with game keyword into class using attribute */
+
+ div[class~='game']{
+    color: yellowgreen;
+    text-decoration: dashed;
+    font-size: 15px;
+ }
+
+/* match case with exact-game keyword into class using attribute */
+ div[class|='game1']{
+    border: 1px solid red;
+    color: brown;
+    font-size: 15px;
+ }
+
+ /* begin with game1 */
+
+ div[class^='yunus']{
+    border: 1px dotted brown;
+    color: yellowgreen;
+    text-decoration: dashed;
+    font-size: 15px;
+ }
