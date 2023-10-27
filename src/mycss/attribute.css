@@ -1,4 +1,4 @@
-div[id='myid']{
+/* div[id='myid']{
     color: brown;
     font-size: 18px;
 }
@@ -8,7 +8,7 @@ div[class ~="myclass"]{
     font-size: 20px;
     background-color: black;
     
-}
+} */
 
 /* div[id]{
     color: brown;
@@ -21,24 +21,33 @@ div[class ~="myclass"]{
 
  /* match case with game keyword into class using attribute */
 
- div[class~='game']{
+ /* div[class~='game']{
     color: yellowgreen;
     text-decoration: dashed;
     font-size: 15px;
- }
+ } */
 
 /* match case with exact-game keyword into class using attribute */
- div[class|='game1']{
+ /* div[class|='game1']{
     border: 1px solid red;
     color: brown;
     font-size: 15px;
- }
+ } */
 
- /* begin with game1 */
+ /* begin with yunus */
 
- div[class^='yunus']{
+ /* div[class^='yunus']{
     border: 1px dotted brown;
     color: yellowgreen;
     text-decoration: dashed;
+    font-size: 15px;
+ } */
+
+  /* ends with yunus */
+
+  div[class$='yunus']{
+    border: 1px dotted yellowgreen;
+    color: brown;
+    text-decoration: overline;
     font-size: 15px;
  }

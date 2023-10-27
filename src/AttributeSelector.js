@@ -3,7 +3,7 @@ import './mycss/attribute.css'
 const AttributeSelector = () => {
   return (
     <div>
-      <div id='myid'>welcome imran in id</div>
+      {/* <div id='myid'>welcome imran in id</div>
       <hr></hr>
       <div>without id</div>
       <div>without id</div>
@@ -28,7 +28,15 @@ const AttributeSelector = () => {
       <hr></hr>
       <h4>begin with yunus</h4>
       <div className='yunus'>yunus</div>
-      <div className='super game1'>super game1</div>
+      <div className='super yunus'>super yunus</div>
+      <div className='heavy1'>heavy1</div>
+      <div className='yunus here'>yunus here</div>
+      <div className='yunus-mine'>yunus-mine</div> */}
+
+      <hr></hr>
+      <h4>ends with yunus</h4>
+      <div className='yunus'>yunus</div>
+      <div className='super yunus'>super yunus</div>
       <div className='heavy1'>heavy1</div>
       <div className='yunus here'>yunus here</div>
       <div className='yunus-mine'>yunus-mine</div>
