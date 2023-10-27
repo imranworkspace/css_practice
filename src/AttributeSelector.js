@@ -33,13 +33,22 @@ const AttributeSelector = () => {
       <div className='yunus here'>yunus here</div>
       <div className='yunus-mine'>yunus-mine</div> */}
 
-      <hr></hr>
+      {/* <hr></hr>
       <h4>ends with yunus</h4>
       <div className='yunus'>yunus</div>
       <div className='super yunus'>super yunus</div>
       <div className='heavy1'>heavy1</div>
       <div className='yunus here'>yunus here</div>
-      <div className='yunus-mine'>yunus-mine</div>
+      <div className='yunus-mine'>yunus-mine</div> */}
+
+    
+    <hr></hr>
+      <h4> match with ga </h4>
+      <div className='game1'>welcome game in class</div>
+      <div className='super game1'>game1</div>
+      <div className='heavy1'>heavy1</div>
+      <div className='nice-game'>nice-game</div>
+      <div className='game mine'>game mine</div>
     </div>
   )
 }

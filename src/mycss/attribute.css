@@ -45,7 +45,19 @@ div[class ~="myclass"]{
 
   /* ends with yunus */
 
-  div[class$='yunus']{
+  /* div[class$='yunus']{
+    border: 1px dotted yellowgreen;
+    color: brown;
+    text-decoration: overline;
+    font-size: 15px;
+ } */
+
+
+
+
+  /* match with ga */
+
+  div[class*='ga']{
     border: 1px dotted yellowgreen;
     color: brown;
     text-decoration: overline;
