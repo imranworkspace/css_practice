@@ -1,0 +1,32 @@
+#container{
+    border: 2px solid black;
+    display: flex;  /* flex bydefault in row by default horizontal*/
+}
+
+div{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+#firstdiv{
+    background-color: brown;
+}
+
+#seconddiv{
+    background-color: purple;
+}
+
+#thirddiv{
+    background-color: yellowgreen;
+}
+
+#forthdiv{
+    background-color: brown;
+}
+
+#fifthdiv{
+    background-color: blueviolet;
+}

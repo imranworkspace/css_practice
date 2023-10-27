@@ -1,5 +1,6 @@
 import React from 'react'
-import AttributeSelector from './AttributeSelector'
+import Flex from './Flex'
+// import AttributeSelector from './AttributeSelector'
 // import Boxsizing from './Boxsizing'
 // import Transition from './Transition'
 // import Outline from './Outline'
@@ -38,7 +39,8 @@ const App = () => {
       {/* <Columns /> */}
       {/* <Boxsizing /> */}
 
-      <AttributeSelector />
+      {/* <AttributeSelector /> */}
+      <Flex />
     </React.Fragment>
   )
 }
