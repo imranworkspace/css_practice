@@ -17,20 +17,25 @@ div{
 
 #firstdiv{
     background-color: brown;
+    order: 2;
 }
 
 #seconddiv{
     background-color: purple;
+    order: -1; /* starting with order: -1 and rest of bydefault order: 0 */
 }
 
 #thirddiv{
     background-color: yellowgreen;
+    order: 1;
 }
 
 #forthdiv{
     background-color: brown;
+    order: 3
 }
 
 #fifthdiv{
     background-color: blueviolet;
+    order: 4
 }
