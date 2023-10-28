@@ -3,11 +3,8 @@
     display: flex;  /* flex bydefault in row by default horizontal*/
     flex-direction: row; /* flex in horizontal shape*/
     justify-content: space-around;
-    height: 300px;
-    /* align-items: flex-start; */
-    align-items: flex-end;
-    /* align-items: center; */
-    /* align-items: baseline; */
+    flex-wrap: wrap; /* default nowrap for minimize browser screen and see for that we can use other prop like
+    wrap,wrap-reverse*/
 }
 
 div{
