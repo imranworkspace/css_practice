@@ -13,29 +13,26 @@ div{
     color: white;
     margin: 10px;
     padding: 10px;
+    flex-grow: 1;
 }
 
 #firstdiv{
     background-color: brown;
-    order: 2;
 }
 
 #seconddiv{
     background-color: purple;
-    order: -1; /* starting with order: -1 and rest of bydefault order: 0 */
 }
 
 #thirddiv{
     background-color: yellowgreen;
-    order: 1;
+    flex-grow: 2;
 }
 
 #forthdiv{
-    background-color: brown;
-    order: 3
+    background-color: chocolate;
 }
 
 #fifthdiv{
     background-color: blueviolet;
-    order: 4
 }
