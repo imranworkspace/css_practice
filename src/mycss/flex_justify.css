@@ -2,7 +2,7 @@
     border: 2px solid black;
     display: flex;  /* flex bydefault in row by default horizontal*/
     flex-direction: row; /* flex in horizontal shape*/
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap; /* default nowrap for minimize browser screen and see for that we can use other prop like
     wrap,wrap-reverse*/
 }
