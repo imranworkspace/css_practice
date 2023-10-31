@@ -1,6 +1,7 @@
 import React from 'react'
 import Flex from './Flex'
 import FlexJustify from './FlexJustify'
+import MediaType from './MediaType'
 // import AttributeSelector from './AttributeSelector'
 // import Boxsizing from './Boxsizing'
 // import Transition from './Transition'
@@ -42,7 +43,8 @@ const App = () => {
 
       {/* <AttributeSelector /> */}
       {/* <Flex /> */}
-      <FlexJustify />
+      {/* <FlexJustify /> */}
+      <MediaType />
     </React.Fragment>
   )
 }
