@@ -6,7 +6,7 @@ body{
 @media screen and (max-width : 320px){
     p{
         background-color: white;
-        color: purple;
+        color: rgb(66, 9, 66);
         font-size: 18px;
     }
 }
